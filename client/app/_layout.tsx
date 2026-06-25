@@ -11,7 +11,7 @@ function AuthGuard(){
   if(!isSignedIn) {
     return <Redirect href="/(auth)/"/>;
 } else if(isSignedIn) {
-  return <Redirect href="/(tabs)/"/>;
+    return <Redirect href="/(tabs)/"/>;
  }
 }
 
