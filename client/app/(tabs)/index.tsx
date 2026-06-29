@@ -49,7 +49,7 @@ export default function MessagesScreen() {
 
       {/* Header */}
         <View style={styles.header}>
-          <Text style={styles.title}>Nexus chat</Text>
+          <Text style={styles.title}>NexusTalk</Text>
           <View style={styles.headerRight}>
             <View style={styles.badge}>
               <Text style={styles.badgeText}>{conversations.length}</Text>
